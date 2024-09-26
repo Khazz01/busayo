@@ -37,13 +37,6 @@ border-color: none;
   color: black;
 }
 
-
-
-
-/* .d-none {
-  display: none !important;
-} */
-
 .d-inline {
   display: inline !important;
 }
@@ -82,7 +75,9 @@ background-color:#222831;
 }
 .col-lg-7{
   color: white;
+  padding: 0;
 }
+
 .sectionheader{
   text-align: center;
 }
@@ -92,7 +87,8 @@ background-color:#222831;
 	line-height: 5rem;
 	font-weight: 500;
   color: white;
-  padding: 5% 5% 0%;
+  padding: 1%;
+
 }
 
 .showcase p {
@@ -357,18 +353,21 @@ footer {
   .card-img-top{
     height: 250px;
   }
+
   .work-img{
     height: 450px;
   }
   .carousel-item {
     height: 330px;
   }
+  center-name{
+    	width: 90%;
+      margin: 0 auto;
+  }
   .showcase h1 {
-  	font-size: 2.5rem;
-  	width: 100%;
+  	font-size: 2.1rem;
   	line-height: 4rem;
   	font-weight: 300;
-    color: pink;
-    padding: 1000px 5% -5%;
+    /* padding: 1% 5%; */
   }
 }
