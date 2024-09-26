@@ -29,20 +29,20 @@
     });
 
     // Clicked link
-    let click = true;
+    let lick = true;
     $('.nav-link').click(function(){
        $('.nav-link').css('color', 'white');
       $('.navbar-toggler').addClass('collapsed');
       $('.navbar-collapse').removeClass('show');
       $('.navbar-toggler').attr('aria-expanded', 'false');
-  if (click == true)  {  let clicked = $(this).attr('id');
+  if (lick == true)  {  let clicked = $(this).attr('id');
      $('#' + clicked).css('color', '#6EACDA');
-     click= false
-   }else if (click==false) {
+     lick= false// Select by ID
+   }else if (lick==false) {
        $('.nav-link').css('color', 'white');
      let clicked = $(this).attr('id');
         $('#' + clicked).css('color', '#6EACDA');
-        click= true
+        lick= true// Select by ID
    }
  });
     
