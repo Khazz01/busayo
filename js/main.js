@@ -38,7 +38,7 @@
   if (click == true)  {  let clicked = $(this).attr('id');
      $('#' + clicked).css('color', '#6EACDA');
      click= false
-   }else if (lick==false) {
+   }else if (click==false) {
        $('.nav-link').css('color', 'white');
      let clicked = $(this).attr('id');
         $('#' + clicked).css('color', '#6EACDA');
