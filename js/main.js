@@ -28,7 +28,24 @@
         }
     });
 
-
+    // Clicked link
+    let click = true;
+    $('.nav-link').click(function(){
+       $('.nav-link').css('color', 'white');
+      $('.navbar-toggler').addClass('collapsed');
+      $('.navbar-collapse').removeClass('show');
+      $('.navbar-toggler').attr('aria-expanded', 'false');
+  if (click == true)  {  let clicked = $(this).attr('id');
+     $('#' + clicked).css('color', '#6EACDA');
+     click= false
+   }else if (lick==false) {
+       $('.nav-link').css('color', 'white');
+     let clicked = $(this).attr('id');
+        $('#' + clicked).css('color', '#6EACDA');
+        click= true
+   }
+ });
+    
     // Typed Initiate
     if ($('.typed-text-output').length == 1) {
         var typed_strings = $('.typed-text').text();
